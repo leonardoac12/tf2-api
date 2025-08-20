@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CosmeticService implements ICosmeticService {
 
-    ICosmeticRepository cosmeticRepository;
+    private ICosmeticRepository cosmeticRepository;
 
     @Override
     public void saveCosmetic(Cosmetic cosmetic) {
