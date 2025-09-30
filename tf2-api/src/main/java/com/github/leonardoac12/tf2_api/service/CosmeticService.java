@@ -13,4 +13,9 @@ public class CosmeticService implements ICosmeticService {
     public void saveCosmetic(Cosmetic cosmetic) {
         cosmeticRepository.save(cosmetic);
     }
+
+    @Override
+    public Cosmetic getCosmeticById(Long id) {
+        return cosmeticRepository.findById(id).orElse(null);
+    }
 }
