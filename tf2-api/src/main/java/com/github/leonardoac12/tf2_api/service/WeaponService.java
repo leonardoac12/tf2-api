@@ -13,4 +13,10 @@ public class WeaponService implements IWeaponService {
     public void saveWeapon(Weapon weapon) {
         weaponRepository.save(weapon);
     }
+
+    @Override
+    public Weapon getWeaponById(Long id) {
+        return weaponRepository.findById(id).orElse(null);
+    }
+
 }
