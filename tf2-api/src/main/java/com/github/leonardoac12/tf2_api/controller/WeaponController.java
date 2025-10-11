@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/weapons")
+@RequestMapping("/tf2-api/weapons")
 public class WeaponController {
 
     @Autowired
