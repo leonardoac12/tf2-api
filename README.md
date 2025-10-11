@@ -1,6 +1,6 @@
 # TF2-API
 
-Una API RESTful sencillo, que proporciona información sobre armas y cosméticos de Team Fortress 2.
+Una API RESTful sencillo para la práctica Frontend, despliegue JSON para armas y cosméticos de Team Fortress 2, al estilo PokeAPI.
 
 ## Características
 
