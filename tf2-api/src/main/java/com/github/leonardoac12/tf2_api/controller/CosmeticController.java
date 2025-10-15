@@ -1,8 +1,6 @@
 package com.github.leonardoac12.tf2_api.controller;
 
 import com.github.leonardoac12.tf2_api.model.Cosmetic;
-import com.github.leonardoac12.tf2_api.model.Weapon;
-import com.github.leonardoac12.tf2_api.repository.ICosmeticRepository;
 import com.github.leonardoac12.tf2_api.service.ICosmeticService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
